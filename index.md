@@ -2,3 +2,199 @@
 title: Welcome to my blog
 ---
 
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 引入bootstrap资源 引入样式-->
+    <!-- <link href="../bootstrap-5.3.0-alpha1-dist/css/bootstrap.css" rel="stylesheet" /> -->
+
+
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css">  
+    <div id="gitalk-container"></div>  
+    <script src="https://cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>  
+    <script>  
+    var gitalk = new Gitalk({  
+      clientID: 'Ov23lityPe5twVXkTA4i',  
+      clientSecret: '6534c0ddac0998216471d8d9d222b72312f2b22e',  
+      repo: 'qiguai',  
+      owner: 'shuf811',  
+      admin: ['shuf811'], // 可选，管理界面权限  
+      id: location.pathname,      // 确保唯一性，通常使用文章URL  
+      distractionFreeMode: false  // 可选，是否启用无干扰模式  
+    });  
+    gitalk.render('gitalk-container');  -->
+    </script>
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/shou.css">
+    <title>奇怪的blog</title>
+    <script></script>
+
+</head>
+
+<body>
+    </div>
+    <div class="ppy">
+        <div class="tty">
+            <div class="b33">
+                <a href="index.html">
+                    <img src="下载.jpg" alt="">
+                    <br>
+                    <h3>奇怪 qiguai</h3>
+                </a>。
+            </div>
+
+            <div class="a22">
+                <a href="index.html">首页</a>
+            </div>
+            <div class="a22">
+                <a href="tuce.html">图册</a>
+            </div>
+            <div class="a22">
+                <a href="renwen.html">纪实摄影作品</a>
+            </div>
+            <div class="a22">
+                <a href="renxaing.html">人像摄影作品</a>
+            </div>
+            <div class="a22">
+                <a href="saojie.html">街拍摄影作品</a>
+            </div>
+            <div class="a22">
+                <a href="luxing.html">旅行摄影作品</a>
+            </div>
+            <div class="a22">
+                <a href="sheyue.html">摄月</a>
+            </div>
+            <div class="a22">
+                <a href="zaiweihai.html">在威海</a>
+            </div>
+            <div class="a22">
+                <a href="qifei.html">齐飞</a>
+            </div>
+            <div class="a22">
+                <a href="taoli.html">逃离</a>
+            </div>
+            <div class="a22">
+                <a href="guanyu.html">关于我</a>
+            </div>
+
+
+        </div>
+        <div class="hea">
+            <div class="ccp">
+                <img src="renwen3.jpg" alt="图片1" class="active">
+                <img src="beijing2.jpg" alt="图片2">
+                <img src="denglu1.jpg" alt="图片3">
+                <img src="renxiang1.jpg" alt="图片4">
+                <div id="swp">
+                    <p id="swpp">Press the shutter button to freeze the moment</p>
+                    <p>“按下快门定格瞬间”</p>
+                    <br>
+                    <div id="swppp">
+                        <a href="renwen.html">
+                            <p class="ttab">纪实摄影作品 Documentary Photography</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div id="main">
+                <div class="bard">
+                    <h1>摄影作品</h1>
+                    <h3>Photography Works</h3>
+                    <hr size="1" color="#333">
+                </div>
+                <div class="card" >
+
+                    <a class="acpk" href="renwen.html">
+                        <img src="renwen1.jpg" alt="Responsive image" class=".img-responsive">
+                        <p class="wenzi1">纪实摄影作品</p>
+                        <p class="wenzi2">Documentary Photography</p>
+                    </a>
+                </div>
+                <div class="card" >
+
+                    <a class="acpk" href="renxaing.html">
+                        <img src="../images/_MG_5909.jpg" alt="Responsive" class=".img-responsive">
+                        <p class="wenzi1">人像摄影作品</p>
+                        <p class="wenzi2">Portrait Photography</p>
+                    </a>
+                </div>
+                <div class="card" >
+
+                    <a class="acpk" href="saojie.html">
+                        <img src="../images/_DSC0324.jpg" alt="" class="ttcp">
+                        <p class="wenzi1">街拍摄影作品</p>
+                        <p class="wenzi2">Street photography Photography</p>
+                    </a>
+                </div>
+                <div class="card" >
+
+                    <a class="acpk" href="luxing.html">
+                        <img src="luxing4.jpg" alt="" class="ttcp">
+                        <p class="wenzi1">旅行摄影作品</p>
+                        <p class="wenzi2">Travel Photography</p>
+                    </a>
+                </div>
+                <div class="bard">
+                    <h1>摄影博客</h1>
+                    <h3>Photography Blog</h3>
+                    <hr size="1" color="#333">
+                </div>
+                <div class="blog">
+                    <div class="blog1" >
+                        <a href="sheyue.html">
+                            <div class="kuang">
+                                <img src="../images/yueliang.jpg" alt="Responsive" class="img-responsive">
+                            </div>
+                            <div class="blog2">
+                                <p class="wenzi3">摄月</p>
+                            </div>
+                        </a>
+                    </div>   
+                    <div class="blog1">
+                        <a href="zaiweihai.html">
+                            <div class="kuang">
+                                <img src="../bc/zaiweihai.jpg" alt="Responsive" class="img-responsive">
+                            </div>
+                            <div class="blog2">
+                                <p class="wenzi3">在威海</p>
+                            </div>
+                        </a>
+                    </div> 
+                    <div class="blog1">
+                        <a href="qifei.html">
+                            <div class="kuang">
+                                <img src="../images/_DSC1379.jpg" alt="Responsive" class="img-responsive">
+                            </div>
+                            <div class="blog2">
+                                <p class="wenzi3">齐飞</p>
+                            </div>
+                        </a>
+                    </div>   
+                    <div class="blog1">
+                        <a href="taoli.html">
+                            <div class="kuang">
+                                <img src="../images/_DSC1681.jpg" alt="Responsive" class="img-responsive">
+                            </div>
+                            <div class="blog2">
+                                <p class="wenzi3">逃离</p>
+                            </div>
+                        </a>
+                    </div> 
+                </div>
+            </div>
+            <footer>
+                <p>版权所有 &copy; 2024 奇怪的摄影博客</p>
+            </footer>
+        </div>
+    </div>
+    <script src="../js/sc.js"></script>
+    <script src="../bootstrap-5.3.0-alpha1-dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
+
