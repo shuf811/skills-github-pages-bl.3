@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>齐飞</title>
+    <link rel="stylesheet" href="../css/shou.css">
+    <script></script>
+    <style>
+        
+    </style>
+</head>
+<body>
+    <div class="ppy">
+        <div class="tty">
+            <div class="b33">
+                <a href="index.html">
+                    <img src="下载.jpg" alt="">
+                    <br>
+                    <h3>奇怪 qiguai</h3>
+                </a>
+            </div>
+
+            <div class="a22">
+                <a href="index.html">首页</a>
+            </div>
+            <div class="a22">
+                <a href="tuce.html">图册</a>
+            </div>
+            <div class="a22">
+                <a href="renwen.html">纪实摄影作品</a>
+            </div>
+            <div class="a22">
+                <a href="renxaing.html">人像摄影作品</a>
+            </div>
+            <div class="a22">
+                <a href="saojie.html">街拍摄影作品</a>
+            </div>
+            <div class="a22">
+                <a href="luxing.html">旅行摄影作品</a>
+            </div>
+            <div class="a22">
+                <a href="sheyue.html">摄月</a>
+            </div>
+            <div class="a22">
+                <a href="zaiweihai.html">在威海</a>
+            </div>
+            <div class="a22">
+                <a href="qifei.html">齐飞</a>
+            </div>
+            <div class="a22">
+                <a href="taoli.html">逃离</a>
+            </div>
+            <div class="a22">
+                <a href="guanyu.html">关于我</a>
+            </div>
+    
+        </div>
+        <div class="hea">
+            <div class="ccp">
+                <img src="qifei.jpg" alt="图片1" class="active">
+            </div>
+            
+             
+             <div id="main">
+                <div class="bard">
+                    <h1>齐飞</h1>
+                    <h3>And fly</h3>
+                    <hr size="1" color="#333">
+                </div>
+                <div class="wenben">
+                    <h1>齐飞：黄昏时分的自由之歌</h1>
+                    <br>
+                    <h1>在繁忙的都市生活中，我们时常被琐事缠绕，身心疲惫。然而，当我们抬头望向天空，总会发现一些美好的瞬间，让我们暂时忘却烦恼，感受到宁静与自由。今天，我想与大家分享一张黄昏时分的天空景色，以及其中两只鸟儿齐飞的画面，它带给我的不仅是视觉上的享受，更是心灵上的触动。
+
+                        <br>一、黄昏的画卷
+                        
+                        <br>黄昏时分，天边渐渐泛起了粉紫色的光芒，宛如一幅精心绘制的画卷。天空从上到下呈现出渐变的色彩，上方的粉紫色更加明亮，下方的色彩则逐渐加深，与即将到来的夜幕形成了完美的过渡。这样的景色，让人仿佛置身于一个梦幻般的世界，心灵得到了片刻的放松。
+                        
+                        <br>二、齐飞的鸟儿
+                        
+                        <br>在这片粉紫色的天空中，有两只鸟儿正展翅飞翔。它们位于图片的中间偏左位置，与天空形成了鲜明的对比。这两只鸟儿似乎在互相追逐，又仿佛在共同享受这片宁静的天空。它们的剪影在天空中勾勒出一道道优美的线条，如同自由之歌的旋律，悠扬而动听。
+                        
+                        <br>三、自由与宁静
+                        
+                        <br>这幅画面带给我最大的感受就是自由与宁静。鸟儿在天空中自由飞翔，无拘无束，仿佛是在向世界宣告它们的存在。而黄昏的天空则给人一种宁静的感觉，仿佛时间在这一刻变得缓慢，让我们有机会停下脚步，感受生活的美好。
+                        
+                        <br>四、心灵的触动
+                        
+                        <br>每次看到这样的画面，我都会不由自主地陷入沉思。鸟儿在飞翔时是否也会思考？它们是否也在追寻着某种意义？或许，我们每个人都像这两只鸟儿一样，在人生的道路上不断前行，追寻着属于自己的自由和宁静。
+                        
+                        <br>五、结语
+                        
+                        <br>齐飞，不仅是鸟儿在天空中的舞蹈，更是我们内心深处对自由和宁静的向往。让我们在忙碌的生活中，不忘抬头望向天空，寻找那些美好的瞬间，让心灵得到片刻的放松和滋养。愿我们都能像这两只鸟儿一样，勇敢地追寻自己的梦想，享受生命中的每一个美好时刻。
+                        
+                        <br>这张以“齐飞”为主题的图片，不仅展示了一幅美丽的黄昏景色，更传递了一种积极向上、追求自由与宁静的生活态度。让我们在欣赏这幅图片的同时，也思考自己的人生道路，勇敢地去追寻那些真正属于自己的美好。</h1>
+                </div>
+            </div>
+            <footer>
+                <p >版权所有 &copy; 2024 奇怪的摄影博客</p>
+            </footer>
+        </div>
+
+    </div>
+    <script>
+        const slider = document.querySelector('.ccp');
+        const images = slider.querySelectorAll('img');
+        let currentIndex = 0;
+
+        function changeImage() {
+            images[currentIndex].classList.remove('active');
+            currentIndex = (currentIndex + 1) % images.length;
+            images[currentIndex].classList.add('active');
+        }
+
+        setInterval(changeImage, 4000);
+    </script>
+
+</body>
+</html>

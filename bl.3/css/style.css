@@ -1,0 +1,18 @@
+/* 移动设备样式 */
+section {
+    margin: 1rem 0;
+}
+
+/* 平板设备及以上的样式 */
+@media (min-width: 768px) {
+    section {
+        margin: 2rem 0;
+    }
+}
+
+/* 大屏设备样式 */
+@media (min-width: 1200px) {
+    section {
+        margin: 3rem 0;
+    }
+}

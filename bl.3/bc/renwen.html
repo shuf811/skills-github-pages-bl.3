@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>纪实摄影作品</title>
+    <link rel="stylesheet" href="../css/shou.css">
+    <script></script>
+    <style>
+        
+    </style>
+</head>
+<body>
+    <div class="ppy">
+        <div class="tty">
+            <div class="b33">
+                <a href="index.html">
+                    <img src="下载.jpg" alt="">
+                    <br>
+                    <h3>奇怪 qiguai</h3>
+                </a>
+            </div>
+
+            <div class="a22">
+                <a href="index.html">首页</a>
+            </div>
+            <div class="a22">
+                <a href="tuce.html">图册</a>
+            </div>
+            <div class="a22">
+                <a href="renwen.html">纪实摄影作品</a>
+            </div>
+            <div class="a22">
+                <a href="renxaing.html">人像摄影作品</a>
+            </div>
+            <div class="a22">
+                <a href="saojie.html">街拍摄影作品</a>
+            </div>
+            <div class="a22">
+                <a href="luxing.html">旅行摄影作品</a>
+            </div>
+            <div class="a22">
+                <a href="sheyue.html">摄月</a>
+            </div>
+            <div class="a22">
+                <a href="zaiweihai.html">在威海</a>
+            </div>
+            <div class="a22">
+                <a href="qifei.html">齐飞</a>
+            </div>
+            <div class="a22">
+                <a href="taoli.html">逃离</a>
+            </div>
+            <div class="a22">
+                <a href="guanyu.html">关于我</a>
+            </div>
+
+        </div>
+        <div class="hea">
+            <div class="ccp">
+                <img src="renwen3.jpg" alt="图片1" class="active">
+                <img src="beijing2.jpg" alt="图片2">
+                <img src="denglu1.jpg" alt="图片3">
+                <img src="renxiang1.jpg" alt="图片4">
+                <div id="swp">
+                    <p id="swpp">Press the shutter button to freeze the moment</p>
+                    <p>“按下快门定格瞬间”</p>
+                    <br>
+                    <div id="swppp">
+                        <a href="renwen.html">
+                            <p class="ttab">纪实摄影作品 Documentary Photography</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+             
+            <div id="main">
+                <div class="bard">
+                    <h1>纪实摄影作品</h1>
+                    <h3>Documentary Photography</h3>
+                    <hr size="1" color="#333">
+                </div>
+                
+                <div class="card">
+                    <img src="renwen1.jpg" alt="" class="ttcp">
+                </div>
+                <div class="card">
+                    <img src="renwen2.jpg" alt="" class="ttcp">
+                </div>
+                <div class="cardt">
+                    <img src="renwen3.jpg" alt="" class="ttcp">
+                </div>
+
+            </div>
+            <footer>
+                <p >版权所有 &copy; 2024 奇怪的摄影博客</p>
+            </footer>
+        </div>
+
+    </div>
+    <script>
+        const slider = document.querySelector('.ccp');
+        const images = slider.querySelectorAll('img');
+        let currentIndex = 0;
+
+        function changeImage() {
+            images[currentIndex].classList.remove('active');
+            currentIndex = (currentIndex + 1) % images.length;
+            images[currentIndex].classList.add('active');
+        }
+
+        setInterval(changeImage, 4000);
+    </script>
+
+</body>
+</html>

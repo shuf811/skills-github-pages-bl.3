@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>关于我</title>
+    <link rel="stylesheet" href="../css/shou.css">
+    <link rel="stylesheet" href="https://github.com/lokesh/lightbox2.git">
+    <script type="text/javascript" src="https://github.com/lokesh/lightbox2.git/dist/js/jquery.js"></script>
+    <script type="text/javascript" src="https://github.com/lokesh/lightbox2.git/dist/js/jquery.lightbox-0.4.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://github.com/lokesh/lightbox2.git/dist/css/jquery.lightbox-0.4.css" media="screen" />
+    <script></script>
+    <style>
+        
+    </style>
+</head>
+<body>
+    <div class="ppy">
+        <div class="tty">
+            <div class="b33">
+                <a href="index.html">
+                    <img src="下载.jpg" alt="">
+                    <br>
+                    <h3>奇怪 qiguai</h3>
+                </a>
+            </div>
+
+            <div class="a22">
+                <a href="index.html">首页</a>
+            </div>
+            <div class="a22">
+                <a href="tuce.html">图册</a>
+            </div>
+            <div class="a22">
+                <a href="renwen.html">纪实摄影作品</a>
+            </div>
+            <div class="a22">
+                <a href="renxaing.html">人像摄影作品</a>
+            </div>
+            <div class="a22">
+                <a href="saojie.html">街拍摄影作品</a>
+            </div>
+            <div class="a22">
+                <a href="luxing.html">旅行摄影作品</a>
+            </div>
+            <div class="a22">
+                <a href="sheyue.html">摄月</a>
+            </div>
+            <div class="a22">
+                <a href="zaiweihai.html">在威海</a>
+            </div>
+            <div class="a22">
+                <a href="qifei.html">齐飞</a>
+            </div>
+            <div class="a22">
+                <a href="taoli.html">逃离</a>
+            </div>
+            <div class="a22">
+                <a href="guanyu.html">关于我</a>
+            </div>
+
+        </div>
+        <div class="hea">
+            <div class="ccp">
+                <img src="yezi.JPG" alt="图片5" class="active">
+                <div id="swp">
+                    <p id="swpp">Press the shutter button to freeze the moment</p>
+                    <p>“按下快门定格瞬间”</p>
+    
+                </div>
+            </div>
+            
+             
+             <div id="main">
+                <div class="bard">
+                    <h1>关于我</h1>
+                    <h3>About Me</h3>
+                    <hr size="1" color="#333">
+                </div>
+                <div class="wenben">
+                    <h1>"奇怪"，一个奇怪的摄影爱好者</h1>
+                    <br>
+                    <h1><br>您好，我是一名热爱光影世界的摄影师，专注于捕捉生活中那些稍纵即逝的美好瞬间，并将其定格为永恒的记忆。自幼对色彩与构图有着敏锐的感知力，这份天赋驱使我拿起相机，踏上了探索视觉艺术的旅程。
+
+                        <br>在我的摄影生涯中，我涉足了多种风格与题材，从壮丽的自然风光到细腻的人文情感，从繁华都市的霓虹夜景到静谧乡村的晨曦微光，每一次快门的按下都是对这个世界独特视角的诠释。我坚信，摄影不仅是记录，更是情感的传递与故事的讲述。通过镜头，我努力挖掘并展现被摄对象背后不为人知的故事与情感深度，让每一张照片都能触动人心，引发共鸣。
+                        
+                        <br>除了技术上的不断精进，我还热衷于学习最新的摄影理念与技术趋势，不断挑战自我，力求在每一次拍摄中都能有所突破与创新。同时，我也乐于分享，经常参与摄影工作坊与讲座，与同行交流心得，共同推动摄影艺术的发展。
+                        
+                        <br>在我的作品中，您可以看到对光线的精准把控、对构图的巧妙安排以及对色彩的大胆运用，这些都是我对摄影艺术不懈追求与热爱的体现。我期待着每一次新的拍摄机会，能够遇见更多独特的故事与面孔，用我的镜头为您讲述那些只属于您的精彩篇章。
+                        
+                        <br>感谢您的关注，让我们一起在光影的世界里，探索无限可能。</h1>
+                </div>
+            </div>
+            <footer>
+                <p >版权所有 &copy; 2024 奇怪的摄影博客</p>
+            </footer>
+        </div>
+
+    </div>
+    <script>
+        const slider = document.querySelector('.ccp');
+        const images = slider.querySelectorAll('img');
+        let currentIndex = 0;
+
+        function changeImage() {
+            images[currentIndex].classList.remove('active');
+            currentIndex = (currentIndex + 1) % images.length;
+            images[currentIndex].classList.add('active');
+        }
+
+        setInterval(changeImage, 4000);
+    </script>
+
+</body>
+</html>

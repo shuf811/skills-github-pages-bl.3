@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>在威海</title>
+    <link rel="stylesheet" href="../css/shou.css">
+    <script></script>
+    <style>
+        
+    </style>
+</head>
+<body>
+    <div class="ppy">
+        <div class="tty">
+            <div class="b33">
+                <a href="index.html">
+                    <img src="下载.jpg" alt="">
+                    <br>
+                    <h3>奇怪 qiguai</h3>
+                </a>
+            </div>
+
+            <div class="a22">
+                <a href="index.html">首页</a>
+            </div>
+            <div class="a22">
+                <a href="tuce.html">图册</a>
+            </div>
+            <div class="a22">
+                <a href="renwen.html">纪实摄影作品</a>
+            </div>
+            <div class="a22">
+                <a href="renxaing.html">人像摄影作品</a>
+            </div>
+            <div class="a22">
+                <a href="saojie.html">街拍摄影作品</a>
+            </div>
+            <div class="a22">
+                <a href="luxing.html">旅行摄影作品</a>
+            </div>
+            <div class="a22">
+                <a href="sheyue.html">摄月</a>
+            </div>
+            <div class="a22">
+                <a href="zaiweihai.html">在威海</a>
+            </div>
+            <div class="a22">
+                <a href="qifei.html">齐飞</a>
+            </div>
+            <div class="a22">
+                <a href="taoli.html">逃离</a>
+            </div>
+            <div class="a22">
+                <a href="guanyu.html">关于我</a>
+            </div>
+    
+        </div>
+        <div class="hea">
+            <div class="ccp">
+                <img src="zaiweihai.jpg" alt="图片1" class="active">
+            </div>
+            
+             
+             <div id="main">
+                <div class="bard">
+                    <h1>在威海</h1>
+                    <h3>in Weihai</h3>
+                    <hr size="1" color="#333">
+                </div>
+                <div class="wenben">
+                    <h1>布鲁维斯号</h1>
+                    <br>
+                    <h1>在威海市荣成市成山镇附近海域，有一艘备受瞩目的搁浅货轮——布鲁维斯号。
+                        <br>
+                        一、基本信息<br>
+                        中文名：布鲁维斯号<br>
+                        外文名：BLUE WAYS<br>
+                        地理位置：威海市荣成市成山镇G228（环海路）附近海域<br>
+                        船只规格：长190米，宽31米<br>
+                        二、历史沿革<br>
+                        搁浅事件：2022年9月19日上午，受台风“南玛都”外围环流和冷空气共同影响，巴拿马籍空载散货船“BLUE WAYS”（布鲁维斯号）在威海成山镇附近海域搁浅进水，船上25人遇险。交通运输部北海救助局派遣救助船舶和救助直升机成功救助全部遇险人员。<br>
+                        走红网络：布鲁维斯号搁浅后，因其独特的海岸风光和海上搁浅的巨轮形象，具有强烈的视觉冲击力，吸引了大量网友的关注和打卡。从2023年春天起，借助社交媒体的影响，布鲁维斯号开始不断吸引全国各地游客专程前来拍照。<br>
+                        三、旅游打卡<br>
+                        网红景点：布鲁维斯号已成为威海市的一个新晋网红打卡点，吸引了大量游客前来拍照留念。其独特的船体外形、离岸距离和倾斜角度都非常适于观赏，很符合年轻人旅游打卡的需求。
+                        <br>旅游设施：为了提升游客的旅游体验，当地政府和相关部门已对布鲁维斯号周边进行了整体规划，并启动了环海旅游提升改造工程。包括新建停车场、民宿、玻璃幕墙咖啡厅、公共厕所等基础设施，以及引进美学空间、布鲁维斯号咖啡馆等项目，以增强游客的体验感。
+                        <br>四、后续处理
+                        <br>归属问题：据荣成市好运角旅游度假区和相关公司工作人员介绍，布鲁维斯号货轮目前已归属于当地一家企业。
+                        <br>拖走计划：尽管有消息称布鲁维斯号将被拖走，但当地旅游度假区和相关公司均表示，短时间内该货轮不会被拖走。这一消息也引发了众多网友的关注和留言。
+                        <br>综上所述，布鲁维斯号作为一艘在威海市荣成市成山镇附近海域搁浅的货轮，因其独特的海岸风光和强烈的视觉冲击力而走红网络，成为了一个备受瞩目的网红打卡点。当地政府和相关部门也已对周边进行了整体规划，并启动了环海旅游提升改造工程，以更好地服务游客。</h1>
+                </div>
+            </div>
+            <footer>
+                <p >版权所有 &copy; 2024 奇怪的摄影博客</p>
+            </footer>
+        </div>
+
+    </div>
+    <script>
+        const slider = document.querySelector('.ccp');
+        const images = slider.querySelectorAll('img');
+        let currentIndex = 0;
+
+        function changeImage() {
+            images[currentIndex].classList.remove('active');
+            currentIndex = (currentIndex + 1) % images.length;
+            images[currentIndex].classList.add('active');
+        }
+
+        setInterval(changeImage, 4000);
+    </script>
+
+</body>
+</html>
